@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  width: 10rem;
+  margin-top: 2rem;
+  margin-left: 15rem;
+}
+
+.icons {
+  width: 48px;
+  height: 48px;
+  padding: 5px;
+}
