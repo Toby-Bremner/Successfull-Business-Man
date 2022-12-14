@@ -10,7 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/contact.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -41,19 +41,76 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
             <a class="nav-link" href="mybook.html">My Book</a>
             <a class="nav-link" href="coaching.html">Coaching</a>
             <a class="nav-link" href="internship.html">Internship</a>
-            <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
+            <a class="nav-link active" href="contact.html" tabindex="-1"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
     </nav>
 
     <!--End of Navbar-->
+
+    <!--Form-->
+    <div class="container">
+      <h1 class="my-5">
+        Have any questions? <br />
+        Feel free to contact us.
+      </h1>
+
+      <form>
+        <div class="form-floating mb-3">
+          <i class="font-awesome fa-solid fa-user-tie fa-lg"></i>
+          <input
+            type="text"
+            class="form-control"
+            id="floatingName"
+            placeholder="Your Name Here"
+          />
+          <label for="floatingName">Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <i class="font-awesome fa-solid fa-envelope fa-lg"></i>
+          <input
+            type="email"
+            class="form-control"
+            id="floatingEmail"
+            placeholder="Your email here"
+          />
+          <label form="floatingEmail">Email</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <i class="font-awesome fa-solid fa-phone fa-lg"></i>
+          <input
+            type="text"
+            class="form-control"
+            id="floatingPhone"
+            placeholder="***-***-****"
+          />
+          <label for="floatingPhone">Phone</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <i class="font-awesome-textarea fa-solid fa-message fa-lg"></i>
+          <textarea
+            class="form-control"
+            placeholder="Your Question Here"
+            id="floatingTextArea"
+            style="height: 100px"
+          ></textarea>
+          <label for="floatingTextArea">Your Question Here</label>
+        </div>
+
+        <button type="button" class="btn btn-outline-dark mb-5">Submit</button>
+      </form>
+    </div>
+    <!--End of form-->
 
     <!--Footer-->
     <div class="container-lg mt-5 text-center">
