@@ -23,31 +23,38 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg pb-2 navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <div class="navbar-brand ms-3">Successful Business Man</div>
+        <a class="navbar-brand" href="index.html">Successful Business Man</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-end me-5"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link active" href="mybook.html">My Book</a>
-            <a class="nav-link" href="coaching.html">Coaching</a>
-            <a class="nav-link" href="internship.html">Internship</a>
-            <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="mybook.html">My Book</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="coaching.html">Coaching</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="internship.html">Internship</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -57,7 +64,7 @@
     <!--Book Title & Intro-->
 
     <div class="container-lg bg-light pb-5 shadow bg-light rounded book">
-      <div class="col-md-5 text-center d-none d-md-inline">
+      <div class="col-md-5 text-center d-md-inline">
         <div
           class="d-flex flex-row justify-content-center align-items-center mt-5"
         >

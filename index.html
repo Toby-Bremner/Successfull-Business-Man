@@ -24,64 +24,65 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <div class="navbar-brand ms-3">Successful Business Man</div>
+        <a class="navbar-brand" href="index.html">Successful Business Man</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-end me-5"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="mybook.html">My Book</a>
-            <a class="nav-link" href="coaching.html">Coaching</a>
-            <a class="nav-link" href="internship.html">Internship</a>
-            <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex"></div>
+          <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mybook.html">My Book</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="coaching.html">Coaching</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="internship.html">Internship</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
+    <!--End of Navbar
 
-    <!--End of Navbar-->
-
-    <!--Main Image and Intro-->
+    <!-Main Image and Intro-->
 
     <div class="container-lg mt-5 bg-light">
-      <div class="d-flex flex-row justify-content-center align-items-center">
-        <div class="col-md-5 text-center d-none d-md-inline me-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-5 col-sm-12 text-center me-md-5">
           <img
             class="img-fluid rounded profile"
             src="img/business-man.jpg"
             alt="handsome business man"
           />
         </div>
-        <h1>
-          <div class="col-md-5 text-center d-none d-md-inline">
-            <div class="display-2 m-5">
-              I am a highly successful business man
-            </div>
-            <div class="display-4 m-4">Would you like to be more like me?</div>
-            <div class="display-5 mb-2">Well, I can help you.</div>
-            <div class="display-6">
-              <p>On my website you can find my book.</p>
-              <p>
-                Coaching and other options so that you can improve your life.
-              </p>
-              <p class="fst-italic">...And be more like me.</p>
-            </div>
+        <div class="col-md-5 col-sm-12 text-center mt-3">
+          <div class="display-2 m-md-5">
+            I am a highly successful business man
           </div>
-        </h1>
+          <div class="display-4 m-4">Would you like to be more like me?</div>
+          <div class="display-5 mb-2">Well, I can help you.</div>
+          <div class="display-6">
+            <p>On my website you can find my book.</p>
+            <p>Coaching and other options so that you can improve your life.</p>
+            <p class="fst-italic">...And be more like me.</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -91,53 +92,66 @@
     <div
       class="container-lg d-flex justify-content-evenly align-items-center my-5 p-5 bg-light"
     >
-      <div class="card">
-        <img
-          src="img/front-cover-placeholder.jpg"
-          class="card-img-top"
-          alt="front cover of my book"
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title">My Book</h5>
-          <p class="card-text">
-            My New Toronto Times Best Seller which has helped hundreds of
-            thousands of people become more awesome like me.
-          </p>
-          <a href="mybook.html" class="btn btn-primary">Click Here to Buy</a>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center mb-sm-3">
+          <div class="card">
+            <img
+              src="img/front-cover-placeholder.jpg"
+              class="card-img-top w-100"
+              alt="front cover of my book"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">My Book</h5>
+              <p class="card-text">
+                My New Toronto Times Best Seller which has helped hundreds of
+                thousands of people become more awesome like me.
+              </p>
+              <a href="mybook.html" class="btn btn-primary"
+                >Click Here to Buy</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img
-          src="img/mentorship.jpg"
-          class="card-img-top"
-          alt="pic of man coaching a younger man"
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title">Coaching</h5>
-          <p class="card-text">
-            Need some coaching, mentorship and guidance? My team and I can help
-            you reach your best self with one on one coaching.
-          </p>
-          <a href="#" class="btn btn-primary">Click here to find your Coach</a>
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center mb-sm-3">
+          <div class="card">
+            <img
+              src="img/mentorship.jpg"
+              class="card-img-top w-100"
+              alt="pic of man coaching a younger man"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Coaching</h5>
+              <p class="card-text">
+                Need some coaching, mentorship and guidance? My team and I can
+                help you reach your best self with one on one coaching.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Click here to find your Coach</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="card">
-        <img
-          src="img/internship.jpg"
-          class="card-img-top"
-          alt="a happy intern"
-        />
-        <div class="card-body text-center">
-          <h5 class="card-title">Internship</h5>
-          <p class="card-text">
-            Looking to start a career and gain experience and work skills? Start
-            an internship at my company and help both us become more successful.
-          </p>
-          <a href="#" class="btn btn-primary"
-            >Click Here to begin your career</a
-          >
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center mb-sm-3">
+          <div class="card">
+            <img
+              src="img/internship.jpg"
+              class="card-img-top w-100"
+              alt="a happy intern"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Internship</h5>
+              <p class="card-text">
+                Looking to start a career and gain experience and work skills?
+                Start an internship at my company and help both us become more
+                successful.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Click Here to begin your career</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
