@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.profile {
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-img-top {
+  width: 18rem;
+  height: 18rem;
+  object-fit: contain;
+  margin-bottom: -2.5rem;
+}
+
+.icons {
+  width: 48px;
+  height: 48px;
+  padding: 5px;
+  margin-bottom: 28px;
+}
